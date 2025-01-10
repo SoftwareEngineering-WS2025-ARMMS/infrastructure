@@ -1,0 +1,52 @@
+pageInfo:
+  title: Welcome to your Dashboard
+  description: Tools to streamline your work
+  logo: https://i.ibb.co/71WyyzM/little-bot-3.png
+  navLinks:
+    - title: Documentation
+      path: https://armms-documentation.com
+appConfig:
+  auth:
+    enableOidc: true
+    oidc:
+      clientId: dashy
+      endpoint: https://keycloak-armms.rayenmanai.site/realms/ARMMS-Platform/
+      scope: openid email
+  disableConfiguration: true
+  statusCheck: false
+  theme: dashy-docs
+  fontAwesomeKey: c94dc2b452
+  customCss: '.clock p.time { font-size: 3rem !important; }'
+  layout: vertical
+  iconSize: small
+sections:
+  - name: Core
+    icon: fas fa-house
+    items:
+      - title: Keycloak
+        icon: si-keycloak
+        url: https://keycloak-armms.rayenmanai.site
+        id: 0_393_keycloak
+      - title: Dropbox
+        icon: si-dropbox
+        url: https://armms-storage.aorief.com/dropbox_login
+        id: 1_393_dropbox
+  - name: Tools
+    icon: fas fa-screwdriver
+    items:
+      - title: ProtoGen
+        icon: fas fa-file
+        url: https://https://protogen-armms.rayenmanai.site/
+        id: 0_529_protogen
+      - title: Chatbot
+        icon: fas fa-robot
+        url: https://armms-openwebui.aorief.com/
+        id: 1_529_chatbot
+  - name: Today
+    icon: far fa-smile-beam
+    displayData:
+      collapsed: false
+      hideForGuests: false
+    widgets:
+      - type: apod
+        id: 0_513_apod
