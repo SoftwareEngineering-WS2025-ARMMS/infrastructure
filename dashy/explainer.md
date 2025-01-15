@@ -1,4 +1,4 @@
-Dashy
+# Dashy
 
 Dashy is an open-source project for plugin-based dashboard creation.
 
