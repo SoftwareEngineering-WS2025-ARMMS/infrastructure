@@ -40,7 +40,7 @@ sections:
         id: 0_529_protogen
       - title: Chatbot
         icon: fas fa-robot
-        url: https://armms-openwebui.aorief.com/
+        url: https://armms-chatbot.aorief.com/
         id: 1_529_chatbot
   - name: Today
     icon: far fa-smile-beam
