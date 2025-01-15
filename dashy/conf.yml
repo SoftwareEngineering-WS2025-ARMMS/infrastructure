@@ -1,10 +1,10 @@
 pageInfo:
-  title: Welcome to your Dashboard
-  description: Tools to streamline your work
+  title: VEREINfacht 
+  description: Tools zur Optimierung Ihrer Arbeit 
   logo: https://i.ibb.co/71WyyzM/little-bot-3.png
   navLinks:
     - title: Documentation
-      path: https://armms-documentation.com
+      path: https://softwareengineering-ws2025-armms.github.io/documentation/ 
 appConfig:
   auth:
     enableOidc: true
@@ -25,7 +25,7 @@ sections:
     items:
       - title: Keycloak
         icon: si-keycloak
-        url: https://keycloak-armms.rayenmanai.site
+        url: https://keycloak-armms.rayenmanai.site/realms/ARMMS-Platform/account 
         id: 0_393_keycloak
       - title: Dropbox
         icon: si-dropbox
@@ -36,7 +36,7 @@ sections:
     items:
       - title: ProtoGen
         icon: fas fa-file
-        url: https://https://protogen-armms.rayenmanai.site/
+        url: https://protogen-armms.rayenmanai.site/
         id: 0_529_protogen
       - title: Chatbot
         icon: fas fa-robot
